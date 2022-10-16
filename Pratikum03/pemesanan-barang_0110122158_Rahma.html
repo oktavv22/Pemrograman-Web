@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ordering Goods</title>
+  </head>
+  <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background: rgb(201, 126, 178)">
+    <table align="center" style="background-color: rgb(255, 255, 255); margin-top: 15px; margin-bottom: 15px; border: 1px solid">
+      <tr>
+        <td style="border-right: 1px solid; padding: 0 60px">Home</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Generate Link</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Transaction History</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Policy</td>
+        <td style="padding: 0 60px">Logout</td>
+      </tr>
+    </table>
+
+    <form action="pembayaran-barang.html">
+      <table align="center" cellpadding="10" style="width: 980px">
+        <tbody>
+          <tr>
+            <td rowspan="8" width="260">
+              <img src="maskerspirulinaterbaik.jpg" width="180" alt="ini photo" style="border: 2px solid rgb(0, 0, 0)" /> <br />
+              <button style="background-color: rgb(207, 136, 201); color: rgb(7, 7, 7); padding: 3px 15px; border: 2px solid #000; border-radius: 1px; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.4) 2.5px 2.5px 2.6px; margin-bottom: 225px">
+                Uploading Picture
+              </button>
+            </td>
+            <td width="150px"> Title</td>
+            <td>: Masker Spirulina Tiens</td>
+          </tr>
+          <tr>
+            <td> Description : </td>
+            <td>
+              : Publication Year : 2022 <br />
+                Merk : Spirulina Mask <br />
+                Expired : 3 Tahun
+            </td>
+          </tr>
+          <tr>
+            <td> Number Account : </td>
+            <td>
+              :<input type="text" name="No Akun" style="width:380px" value="776-349-976-8" checked/>
+            </td>
+          </tr>
+          <tr>
+            <td> Bank : </td>
+            <td>
+              <select>
+                <option>BSI</option>
+                <option>BCA</option>
+                <option>MANDIRI</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td> Account Disributor : </td>
+            <td>
+              :<input type="text" id="pemegang akun" style="width:380px" value="Budiman" checked/>
+            </td>
+          </tr>
+          <tr>
+            <td> Transaction : </td>
+            <td>
+              <input type="number" name="transaksi" min="0" max="10" placeholder="0" /> <br />* If the transaction is for more than 2 people, selcect 2 from the dropdwn list <br />
+              <input type="checkbox" name="check" /> Send to Number <br />
+              <input type="checkbox" name="check" /> Send to Email
+            </td>
+          </tr>
+          <tr>
+            <td> Send to Number : </td>
+            <td>
+              :<input type="number" name="nomor telepon" value="081297266381" checked/>
+            </td>
+          </tr>
+          <tr>
+            <td> Send to Email : </td>
+            <td>
+              :<input type="email" name="email" value="oktaviyantirahma@gmail.com" checked/>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit"
+                value="Pay using quic link "
+                style="background-color: #0a0c0a; color: rgb(197, 103, 103); font-weight: bold; padding: 3px 15px; border: 2px solid #000; border-radius: 1px; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.4) 2.5px 2.5px 2.6px"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
