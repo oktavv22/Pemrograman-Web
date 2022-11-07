@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+img {
+    width: 10%;
+}
+p {
+    text-align: justify;
+}
+#soekarno {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.gambar {
+    text-align: center;
+    background-color: black;
+}
+.koleksi {
+    text-align: center;
+}
+.promo h2 {
+    text-align: center;
+}
+.promo h3 {
+    text-align: center;
+}
